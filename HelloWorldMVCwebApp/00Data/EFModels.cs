@@ -14,8 +14,23 @@ namespace HelloWorldMVCwebApp._00Data
 
         public string Name { get; set; }
 
-        public string Publisher { get; set; }
+        public string Director { get; set; }
 
-        public string Date { get; set; }
+        public string ReleaseDate { get; set; }
+
+        public string Email { get; set; }
+        public string Language { get; set; }
+    }
+
+    public class Category
+    {
+        public int CategoryId { get; set; }
+        [StringLength(50)]
+        [Required]
+
+        public string CategoryName { get; set; }
+
+        public string CategoryCode { get; set; }
+
     }
 }

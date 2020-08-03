@@ -14,6 +14,6 @@ namespace HelloWorldMVCwebApp._00Data
 
         public DbSet<Movie> Movies { get; set; }
 
-
+        public DbSet<Category> Categories { get; set; }
     }
 }
