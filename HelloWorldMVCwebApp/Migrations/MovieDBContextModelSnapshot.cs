@@ -46,6 +46,9 @@ namespace HelloWorldMVCwebApp.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int?>("CategoryNameCategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Director")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -66,7 +69,16 @@ namespace HelloWorldMVCwebApp.Migrations
 
                     b.HasKey("MovieId");
 
+                    b.HasIndex("CategoryNameCategoryId");
+
                     b.ToTable("Movies");
+                });
+
+            modelBuilder.Entity("HelloWorldMVCwebApp._00Data.Movie", b =>
+                {
+                    b.HasOne("HelloWorldMVCwebApp._00Data.Category", "CategoryName")
+                        .WithMany()
+                        .HasForeignKey("CategoryNameCategoryId");
                 });
 #pragma warning restore 612, 618
         }

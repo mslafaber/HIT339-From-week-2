@@ -167,3 +167,8 @@ C:\Users\Melisha Lafaber\Documents\week2BookApp\HelloWorldMVCwebApp\obj\Debug\ne
 C:\Users\Melisha Lafaber\Documents\week2BookApp\HelloWorldMVCwebApp\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Details.cshtml.g.cs
 C:\Users\Melisha Lafaber\Documents\week2BookApp\HelloWorldMVCwebApp\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Edit.cshtml.g.cs
 C:\Users\Melisha Lafaber\Documents\week2BookApp\HelloWorldMVCwebApp\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Index.cshtml.g.cs
+C:\Users\Melisha Lafaber\Documents\week2BookApp\HelloWorldMVCwebApp\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Create.cshtml.g.cs
+C:\Users\Melisha Lafaber\Documents\week2BookApp\HelloWorldMVCwebApp\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Delete.cshtml.g.cs
+C:\Users\Melisha Lafaber\Documents\week2BookApp\HelloWorldMVCwebApp\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Details.cshtml.g.cs
+C:\Users\Melisha Lafaber\Documents\week2BookApp\HelloWorldMVCwebApp\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Edit.cshtml.g.cs
+C:\Users\Melisha Lafaber\Documents\week2BookApp\HelloWorldMVCwebApp\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Index.cshtml.g.cs
