@@ -27,6 +27,7 @@ namespace HelloWorldMVCwebApp._00Data
         [EmailAddress]
         public string Email { get; set; }
         public string Language { get; set; }
+        public Category CategoryName { get; set; }
     }
 
     public class Category
