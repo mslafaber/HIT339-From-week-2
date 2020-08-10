@@ -27,11 +27,12 @@ namespace HelloWorldMVCwebApp._00Data
         [EmailAddress]
         public string Email { get; set; }
         public string Language { get; set; }
-        public Category CategoryName { get; set; }
+        public virtual Category Category { get; set; }
     }
 
     public class Category
     {
+        public Category() { }
         public int CategoryId { get; set; }
         [StringLength(50)]
         [Required]
@@ -39,6 +40,8 @@ namespace HelloWorldMVCwebApp._00Data
         public string CategoryName { get; set; }
 
         public string CategoryCode { get; set; }
+
+        public virtual Movie Movie { get; set; }
 
     }
 }
